@@ -36,3 +36,39 @@ footer {
   height: 80px;
   line-height: 80px;
 }
+
+article:first-of-type {
+  background-color: rgb(225, 65, 0);
+}
+
+article:last-of-type {
+  background-color: rgb(200, 65, 25);
+}
+
+main div:nth-child(1) {
+  background-color: rgb(175, 65, 50);
+}
+
+main div:nth-child(2) {
+  background-color: rgb(150, 65, 75);
+}
+
+main div:nth-child(3) {
+  background-color: rgb(125, 65, 100);
+}
+
+main div:nth-child(4) {
+  background-color: rgb(100, 65, 125);
+}
+
+header {
+  background-color: rgb(75, 65, 150);
+}
+
+aside {
+  background-color: rgb(50, 65, 175);
+}
+
+footer {
+  background-color: rgb(25, 65, 200);
+}

@@ -8,13 +8,13 @@
   aside {
     height: 600px;
     line-height: 600px;
-    width: 20.8%;
+    width: 20.83%;
     max-width: 200px;
     float: left;
   }
   
   main {
-    width: 79.2%;
+    width: 79.17%;
     max-width: 760px;
     float: left;
     height: 600px;
@@ -25,7 +25,7 @@
     height: 100px;
     line-height: 100px;
   }
-  
+
   section article {
     float: left;
     /* box-sizing: border-box; */
@@ -43,5 +43,41 @@
   footer {
     height: 150px;
     line-height: 150px;
+  }
+
+  article:first-of-type {
+    background-color: rgb(0, 225, 0);
+  }
+  
+  article:last-of-type {
+    background-color: rgb(25, 225, 25);
+  }
+  
+  main div:nth-child(1) {
+    background-color: rgb(50, 225, 50);
+  }
+  
+  main div:nth-child(2) {
+    background-color: rgb(75, 225, 75);
+  }
+  
+  main div:nth-child(3) {
+    background-color: rgb(100, 225, 100);
+  }
+  
+  main div:nth-child(4) {
+    background-color: rgb(125, 225, 125);
+  }
+  
+  header {
+    background-color: rgb(150, 225, 150);
+  }
+  
+  aside {
+    background-color: rgb(175, 225, 175);
+  }
+  
+  footer {
+    background-color: rgb(200, 225, 200);
   }
 }
